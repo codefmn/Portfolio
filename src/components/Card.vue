@@ -16,7 +16,10 @@
           <h6 class="card-subtitle text-muted">{{item.subtitle}}</h6>
           <p class="card-text">{{item.desc}}</p>
         </div>
-        <div class="card-footer"><a :href="item.url">查看在线部署</a></div>
+        <div class="card-footer">
+          <a :href="item.url" target="_blank">查看在线部署</a>&nbsp;&nbsp;
+          <a :href="item.gurl" target="_blank">Github</a>
+        </div>
       </div>
     </div>
   </div>
