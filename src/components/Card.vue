@@ -17,8 +17,8 @@
           <p class="card-text">{{item.desc}}</p>
         </div>
         <div class="card-footer">
-          <a :href="item.url" target="_blank">查看在线部署</a>&nbsp;&nbsp;
-          <a :href="item.gurl" target="_blank">Github</a>
+          <a :href="item.url" class="btn btn-outline-info" target="_blank">查看在线部署</a>&nbsp;&nbsp;
+          <a :href="item.gurl" class="btn btn-outline-success" target="_blank">Github Repo</a>
         </div>
       </div>
     </div>
